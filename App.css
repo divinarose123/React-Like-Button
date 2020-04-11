@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.buttons {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  padding: 7px 12px;
+  background-color: #2B96DD;
+  color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 1.5px #2B96DD;
+}
+
+.buttons:active {
+  background-color: #2B96DD;
+  transform: translateY(4px);
+  box-shadow: 0 1.5px #2B96DD;
+}
